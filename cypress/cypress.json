@@ -1,0 +1,26 @@
+{
+    "baseUrl": "https://example.com",
+    "defaultCommandTimeout": 4000,
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "chromeWebSecurity": false,
+    "pageLoadTimeout": 60000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "video": false,
+    "screenshotOnRunFailure": true,
+    "trashAssetsBeforeRuns": true,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalSessionAndOrigin": false,
+    "reporter": "spec",
+    "reporterOptions": {
+      "mochaFile": "cypress/results/test-results.xml",
+      "toConsole": true
+    },
+    "env": {
+      "API_URL": "https://example.com/api"
+    }
+  }
+  
