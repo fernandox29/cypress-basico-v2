@@ -1,29 +1,39 @@
-# Testes automatizados com Cypress - Básico
+Introdução
 
-👋 Seja bem-vindo(a)!
+Este projeto de automação foi criado usando Cypress, uma ferramenta de teste de ponta a ponta para aplicativos da web. Ele contém scripts de teste que verificam a funcionalidade e o comportamento do seu aplicativo web.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+Instalação
 
-## O que você vai aprender
+Para instalar as dependências do projeto, execute o seguinte comando:
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+```
+npm install
+```
+Estrutura do Projeto
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+O projeto está estruturado da seguinte forma:
 
-## Vamos começar?
+cypress: contém os scripts de teste do Cypress.
+package.json: contém as dependências do projeto e scripts de execução.
+Execução de Testes
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Para executar os testes, execute o seguinte comando:
 
-___
+````
+npx cypress open
+````
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+Recursos
+
+Documentação do Cypress
+Guia de Introdução ao Cypress
+Contribuindo
+
+As contribuições são bem-vindas! Para contribuir, siga estas etapas:
+
+Crie um fork do repositório.
+Faça suas alterações.
+Crie um pull request.
+Licença
+
+Este projeto está licenciado sob a licença MIT.
