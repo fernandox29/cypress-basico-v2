@@ -8,7 +8,7 @@ document.querySelector('#phone-checkbox')
     if (this.checked) {
       phoneLabelSpan.style.display = 'inline'
       phoneField.required = !isPhoneRequired
-      isPhoneRequired = !isPhoneRequired
+      // isPhoneRequired = !isPhoneRequired
     } else {
       phoneLabelSpan.style.display = 'none'
       phoneField.required = !isPhoneRequired
